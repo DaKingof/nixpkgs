@@ -23,7 +23,7 @@ let
   vivaldiName = if isSnapshot then "vivaldi-snapshot" else "vivaldi";
 in stdenv.mkDerivation rec {
   pname = "vivaldi";
-  version = "6.0.2979.22";
+  version = "6.1.3035.51";
 
   suffix = {
     aarch64-linux = "arm64";
